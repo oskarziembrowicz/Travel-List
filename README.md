@@ -1,70 +1,124 @@
-# Getting Started with Create React App
+<a id="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <h3 align="center">Far Away App</h3>
+  <p align="center">
+    Application for making packing lists.
+    <br />
+  </p>
+</div>
 
-## Available Scripts
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-In the project directory, you can run:
+<!-- ABOUT THE PROJECT -->
 
-### `npm start`
+## About The Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+There are many ways to make a list of things to pack for a trip. Some people use plain pen and paper, others use a notepad on one of their devices, some maybe even have a dedicated app for making a list. However it would be fun to have an application specifically for making a list of things to pack for your travels - something that is nic to use and is suited thematically.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project was done as a part of React.js course in order to improve my skills and experiment with different features. It served its purpose and now it shows some of the skills I have learned.
 
-### `npm test`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Built With
 
-### `npm run build`
+- [![React][React.js]][React-url]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- GETTING STARTED -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+To get a local copy up and running follow these simple example steps.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You will need to have `npm` installed.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```sh
+npm install npm@latest -g
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Installation
 
-## Learn More
+1. Clone the repo
+   ```sh
+   git clone https://github.com/oskarziembrowicz/Travel-List.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Change git remote url to avoid accidental pushes to base project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```sh
+   git remote set-url origin oskarziembrowicz/Travel-List
+   git remote -v # confirm the changes
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Run the application
+   ```sh
+   npm start
+   ```
 
-### Code Splitting
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- USAGE EXAMPLES -->
 
-### Analyzing the Bundle Size
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. To create your first list just start adding some things.
 
-### Making a Progressive Web App
+2. To add an element to your list, just type the item name and select the number of items. After that choose **ADD** or press _Enter_.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. When you click the checkbox next to an item it will be marked as packed.
 
-### Advanced Configuration
+4. You can press **X** on an existing item to remove it from the list completely.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+5. The item list can be sorted by input order, description, or packed status.
 
-### Deployment
+6. The text on the bottom of the page shows your progress in packing.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+7. When you're done with packing, click **CLEAR LIST** to remove all items
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- CONTACT -->
+
+## Contact
+
+Email: oskar.ziembrowicz@gmail.com
+
+Oskar Ziembrowicz - [@linkedin_handle](https://linkedin.com/in/oskar-ziembrowicz)
+
+Project Link: [https://github.com/oskarziembrowicz/Travel-List](https://github.com/oskarziembrowicz/Travel-List)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/oskar-ziembrowicz
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
