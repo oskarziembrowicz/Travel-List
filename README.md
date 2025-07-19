@@ -1,7 +1,7 @@
 <a id="readme-top"></a>
 
 <div align="center">
-  <h3 align="center">Far Away App</h3>
+  <h1 align="center">Far Away App</h1>
   <p align="center">
     Application for making packing lists.
     <br />
